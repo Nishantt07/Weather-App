@@ -1,0 +1,237 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    /* gap: 200px; */
+    justify-content: center;
+    height: 315px;
+    align-items: center;
+    gap: 34px;
+    position: relative;
+    top: 50px;
+}
+.body{
+    width: 100%;
+    height: 100%;
+}
+.temperature{
+    width: 354px;
+    height: 317px;
+    justify-items: center;
+    position: relative;
+    display: flex;
+    background-color: #EDF4F2;
+    text-align: center;
+     align-items: center;
+    border: 2px solid green;
+    border-radius: 4px;
+
+    
+}
+.humidity{
+    width: 354px;
+    height: 317px; 
+    justify-items: center;
+    position: relative;
+    display: flex;
+    background-color: #EDF4F2;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+.wind{
+    width: 354px;
+    height: 317px;
+    justify-items: center;
+    position: relative;
+    background-color: #EDF4F2;
+    display: flex;
+    border: 2px solid green;
+    border-radius: 4px;
+}
+h1 {
+    background-color: #31473A;
+    box-sizing: border-box;
+    align-items: center;
+    position: absolute;
+    left: 81px;
+    bottom: 216px;
+    padding-top: 23px;
+    left: 0px;
+    padding-bottom: 20px;
+    width: 354px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    /* position: static; */
+    color:  #EDF4F2;
+}
+.windify{
+   position: absolute;
+   /* padding-right: 213px; */
+}
+
+
+.heading{
+    position: relative;
+    /* right: 50%; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    color: #003800;
+}
+
+.searchit{
+    display: flex;
+    justify-content: center;
+}
+input {
+    padding: 5px;
+    width: 250px;
+    height: 23px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: 4px solid #003800;
+    padding-left: 10px;
+}
+button {
+    background-color: #003800;
+    color: white;
+    position: relative;
+    left: -5px;
+}
+
+button:hover{
+    background-color:  #EDF4F2;
+    color: #003800;
+}
+button:active{
+    background-color: #003800;
+    color: white;
+}
+
+i{
+    font-size: 23px;
+}
+
+p{
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin: 0;
+    text-align: left;
+    color:  #003800;
+}
+
+.windinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: 33px;
+    top: 191px;
+}
+.temperatureinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   position: relative;
+    top: 96px;
+    margin-left: 20px;
+}
+.humidityinfo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    position: relative;
+    top: 191px;
+    margin-left: 33px;
+}
+
+#gap {
+    height: 38px;
+}
+
+.realtemperature {
+    position: relative;
+    bottom: 40px;
+    LEFT: 113PX;
+    width: 20px;
+    /* font-size: 1px; */
+    /* height: 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.tempdecor {
+    font-size: 40px;
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #003800;
+    height: 0px;
+    position: relative;
+    top: 18px;
+    left: -10px;
+}
+
+.image {
+    /* width: 1000px; */
+    height: 134px;
+    left: 30px;
+    position: relative;
+    top: 18px;
+}
+
+
+
+.realhumidity {
+    position: relative;
+    bottom:-88px;
+    LEFT: 145PX;
+    width: 20px;
+    /* font-size: 1px; */
+    /* height: 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.humidityimage{
+    height: 87px;
+    }
+
+ .humidecor {
+        font-size: 43px;
+        position: relative;
+        top: -23px;
+    }
+
+
+    .windimage {
+        width: 83px;
+        height: 83px;
+    }
+.windecor{
+    font-size: 43px;
+    position: relative;
+    top: -23px;
+
+}
+
+.realwind{
+    position: relative;
+    bottom:-88px;
+    LEFT: 145PX;
+    width: 20px;
+    /* font-size: 1px; */
+    /* height: 0px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
